@@ -47,3 +47,27 @@ _Aug 2015 - Jul 2017_
 + Organization of work on advertising services in order to promote them in the market  
 + Carrying out the choice of advertising methods in the media  
 + Monitoring of the development and implementation of contracts with business partners   
+  
+### Education:  
+#### STEP Computer Academy:  
+**Web Developer**  
+_2016 - 2917_  
+  
+Building web sites with the help of the following technologies:  
+  
+- HTML  
+- CSS  
+- Bootstrap  
+- JavaScript  
+- jQuery  
+- PHP  
+- MySQL  
+- Modx Revolution  
+- Photoshop  
+  
+#### Minsk State Linguistic University:  
+**Linguistic support of intercultural communications**  
+_2010 - 2015_  
+  
+- Translator  
+- PR-specialist  
