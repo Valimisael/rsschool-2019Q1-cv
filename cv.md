@@ -9,4 +9,11 @@
   
 ### Summary:  
 I'm looking for my first job as a front-end developer. I spend my free time on self-development: I read specialized magazines and attend conferences and meet-ups to gain new knowledge. I am a creative person and I am ready to embody your ideas!  
-
+  
+### Skills:  
+**English:** B2  
+**Front-end:** HTML, CSS, JavaScript, jQuery  
+**Preprocessors:** Less  
+**Frameworks:** Bootstrap 4  
+**Tools:** Visual Studio Code, PHPStorm, Photoshop  
+  
