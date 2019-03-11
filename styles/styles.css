@@ -115,3 +115,25 @@ body {
   margin-right: 15px;
   color: #F7941D;
 }
+.experience-info .summary, .experience-info .profile {
+  padding: 20px;
+}
+.experience-info h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.experience-info .summary h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.experience-info .summary p {
+  line-height: 22px;
+}
+.experience-info .profile a {
+  text-decoration: none;
+  color: #F7941D;
+}
+.experience-info .profile a:hover {
+  text-decoration: underline;
+  color: #FE7676;
+}
