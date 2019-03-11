@@ -115,16 +115,18 @@ body {
   margin-right: 15px;
   color: #F7941D;
 }
-.experience-info .summary, .experience-info .profile {
+.experience-info .summary, .experience-info .profile, .experience-info .experience {
   padding: 20px;
 }
 .experience-info h2 {
   font-size: 26px;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 .experience-info .summary h1 {
   font-size: 32px;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 .experience-info .summary p {
   line-height: 22px;
@@ -135,5 +137,25 @@ body {
 }
 .experience-info .profile a:hover {
   text-decoration: underline;
-  color: #FE7676;
+}
+.experience-info .experience h3 {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #F7941D;
+}
+.experience-info .experience h4 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #ADC646;
+}
+.experience-info .experience .date {
+  font-style: italic;
+}
+.experience-info .experience ul {
+  margin-top: 10px;
+}
+.experience-info .experience ul li{
+  list-style-type: disc;
+  margin-left: 30px;
+  list-style: #FE7676;
 }
