@@ -1,7 +1,8 @@
 @import url("reset.css");
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 body {
   font-family: 'Dosis', sans-serif;
@@ -22,6 +23,7 @@ body {
   width: 33%;
   background-color: #2F3A40;
   height: 100vh;
+  position: -webkit-sticky;
   position: sticky;
 }
 .experience-info {
@@ -57,7 +59,8 @@ body {
 }
 .contact-info .photo img{
   border-radius: 50%;
-  box-shadow:  5px 5px 3px #222222;
+  -webkit-box-shadow:  5px 5px 3px #222222;
+          box-shadow:  5px 5px 3px #222222;
 }
 .contact-info .contact-heading {  
   background-color: #FE7676;
@@ -178,5 +181,12 @@ body {
   border-radius: 3px;
   color: #FFFFFF;
   background-color: #F7941D;
-
+}
+@media screen and (max-width: 715px) {
+  .contact-info {
+    height: inherit;
+  }
+  .contact-info, .experience-info {
+    width: 100%;
+  }
 }
