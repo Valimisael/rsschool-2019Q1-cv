@@ -22,9 +22,6 @@ body {
 .contact-info {
   width: 33%;
   background-color: #2F3A40;
-  height: 100vh;
-  position: -webkit-sticky;
-  position: sticky;
 }
 .experience-info {
   width: 66%;
