@@ -1,0 +1,189 @@
+@import url("reset.css");
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+}
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #2F3A40;
+  text-align: right;
+}
+.contact-info, .experience-info {
+  display: inline-block;
+  text-align: left;
+}
+.contact-info {
+  width: 33%;
+  background-color: #2F3A40;
+}
+.experience-info {
+  width: 66%;
+  background-color: #FFFFFF;
+  vertical-align: top;
+  border-right: 1px solid #F7941D;
+}
+.contact-info h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  padding: 5px 0 5px 20px;
+  color: #FFFFFF;
+  position: relative;
+}
+.contact-info h3::after {
+  position: absolute;
+  left: 20px;
+  top: 32px;
+  content: "";
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 10px solid transparent;
+}
+.contact-info .photo {
+  text-align: center;
+  padding: 20px 0;
+}
+.contact-info .photo img{
+  border-radius: 50%;
+  -webkit-box-shadow:  5px 5px 3px #222222;
+          box-shadow:  5px 5px 3px #222222;
+}
+.contact-info .contact-heading {  
+  background-color: #FE7676;
+}
+.contact-info .contact-heading::after {  
+  border-top: 10px solid #FE7676;
+}
+.contact-info .contact .channels,  .contact-info .languages .language, .contact-info .skills .skill, .contact-info .hobbies .hobby {
+  padding: 20px 0 20px 40px;
+}
+.contact-info .contact .channels .channel, .contact-info .languages .language p {
+  margin: 10px 0;
+}
+.contact-info .contact .channels i, .contact-info .languages .language p span {
+  margin-right: 10px;
+}
+.contact-info .contact .channels i {
+  color: #FE7676;
+}
+.contact-info .contact .channels a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.contact-info .contact .channels a:hover {
+  color: #FE7676;
+  text-decoration: underline;
+}
+.contact-info .languages-heading {  
+  background-color: #ADC646;
+}
+.contact-info .languages-heading::after {  
+  border-top: 10px solid #ADC646;
+}
+.contact-info .languages .language p {
+  color: #FFFFFF;
+}
+.contact-info .languages .language p span {
+  color: #ADC646;
+}
+.contact-info .skills h3{  
+  background-color: #7FA4B7;
+}
+.contact-info .skills-heading::after {  
+  border-top: 10px solid #7FA4B7;
+}
+.contact-info .skills .skill span{
+  display: inline-block;
+  padding: 4px;
+  margin: 0 2px 4px 0;
+  border: 1px solid #B1E5FF;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background-color: #7FA4B7;
+}
+.contact-info .hobbies h3{  
+  background-color:#F7941D;
+}
+.contact-info .hobbies-heading::after {  
+  border-top: 10px solid #F7941D;
+}
+.contact-info .hobbies .hobby i {
+  margin-right: 15px;
+  color: #F7941D;
+}
+.experience-info .summary, .experience-info .profile, .experience-info .experience, .experience-info .education {
+  padding: 20px;
+}
+.experience-info h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.experience-info .summary h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.experience-info .summary p {
+  line-height: 22px;
+}
+.experience-info .profile a {
+  text-decoration: none;
+  color: #F7941D;
+}
+.experience-info .profile a:hover {
+  text-decoration: underline;
+}
+.experience-info .experience h3, .experience-info .education h3 {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #F7941D;
+  font-weight: 600;
+}
+.experience-info .experience h4, .experience-info .education h4 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #F7941D;
+}
+.experience-info .experience .date, .experience-info .education .date {
+  font-style: italic;
+}
+.experience-info .experience ul, .experience-info .education ul {
+  margin-top: 10px;
+}
+.experience-info .experience ul li, .experience-info .education ul li {
+  list-style-type: disc;
+  margin-left: 30px;
+  list-style: #FE7676;
+}
+.experience-info .education .skills-education {
+  margin-top: 10px;
+}
+.experience-info .education .skills-education span {
+  display: inline-block;
+  padding: 4px;
+  margin: 0 2px 4px 0;
+  border: 1px solid #F7B86B;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background-color: #F7941D;
+}
+@media screen and (max-width: 715px) {
+  .contact-info {
+    height: inherit;
+  }
+  .contact-info, .experience-info {
+    width: 100%;
+  }
+}
